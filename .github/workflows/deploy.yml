@@ -6,18 +6,22 @@ on:
     branches:
       - main
 
+# This job installs dependencies, build the book, and pushes it to `gh-pages`
 jobs:
-  deploy-book:
-    runs-on: ubuntu-latest
+  build-and-deploy-book:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        python-version: [3.8]
     steps:
       - uses: actions/checkout@v2
 
       # Install dependencies
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v2
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v1
         with:
-          python-version: 3.8
-
+          python-version: ${{ matrix.python-version }}
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
@@ -26,7 +30,6 @@ jobs:
       - name: Build the book
         run: |
           jupyter-book build .
-
       # Push the book's HTML to github-pages
       - name: GitHub Pages action
         uses: peaceiris/actions-gh-pages@v3.6.1
