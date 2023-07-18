@@ -12,3 +12,5 @@ filenames = ['/Users/lendlab/Box Sync/willdecker/GitHub/hidden-markov-model/Intr
 
 for i in filenames:
     convert_to_html(i)
+
+convert_to_html('/Users/lendlab/Box Sync/willdecker/GitHub/hidden-markov-model/docs/intro.ipynb')
