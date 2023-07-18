@@ -2,13 +2,13 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro.html
+root: index
 parts:
   - caption: Introduction
     chapters:
-    - file: Introduction.html
+    - file: Introduction
   - caption: Transition Matrices 
     capters:
-    - file: Transition-Matrices.html
+    - file: Transition-Matrices
   - caption: Real world examples using Markov chains and transition matrices
-    - file: Real-World-Markov-Chains-and-Transition-Matrices.html
+    - file: Real-World-Markov-Chains-and-Transition-Matrices
