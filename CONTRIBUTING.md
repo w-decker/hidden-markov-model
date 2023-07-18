@@ -3,12 +3,12 @@
 Contributions are welcome, and they are greatly appreciated! Every little bit
 helps, and credit will always be given. You can contribute in the ways listed below.
 
-## Creating Content
+## Create Content
 
-If you wish to update existing content or provide new content, please do the following:
+If you wish to add to existing content or create new content:
 
-- submit an issue with a detailed description of the udpated/new content.
-- submit a pull request for the updated/new content.
+- create an issue with a detailed explanation of the new/updated content.
+- submite a pull request of the new/update content.
 
 ## Submit Feedback
 
