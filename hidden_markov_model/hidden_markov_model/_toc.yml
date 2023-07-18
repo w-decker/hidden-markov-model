@@ -6,10 +6,10 @@ root: intro
 parts:
   - caption: Introduction
     chapters:
-      - file: Introduction
+      - file: Introduction.html
   - caption: Transition Matrices
     chapters:
-      - file: Transition-Matrices
+      - file: Transition-Matrices.html
   - caption: Real world examples using Markov chains and transition matrices
     chapters:
-      - file: Real-World-Markov-Chains-and-Transition-Matrices
+      - file: Real-World-Markov-Chains-and-Transition-Matrices.html
