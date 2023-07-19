@@ -351,6 +351,8 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-a-transition-matrix">What is a transition matrix?</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#but-how-can-we-take-this-further">But how can we take this further?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#implementing-in-python">Implementing in Python</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Implementing in Python</a></li>
 </ul>
             </nav>
         </div>
@@ -427,6 +429,9 @@ S_1 = \begin{pmatrix} 0.50 \\ 0.25 \\ 0.25 \end{pmatrix}
 \begin{pmatrix} 0.375 \\ 0.33 \\ 0.475 \end{pmatrix} = \begin{pmatrix} 0.50 &amp; 0.25 &amp; 0.25 \\ 0.33 &amp; 0.33 &amp; 0.33 \\ 0.90 &amp; 0.05 &amp; 0.05 \end{pmatrix} \begin{pmatrix} 0.50 \\ 0.25 \\ 0.25 \end{pmatrix}
 \end{split}\]</div>
 <p>This can also be completed in Python as well.</p>
+</section>
+<section id="implementing-in-python">
+<h2>Implementing in Python<a class="headerlink" href="#implementing-in-python" title="Permalink to this heading">#</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># import numpy</span>
@@ -463,6 +468,9 @@ S_n = P^n(S_0)
 \]</div>
 <p>where <span class="math notranslate nohighlight">\(n\)</span> is the state you wish to identify and <span class="math notranslate nohighlight">\(P\)</span> is the transition matrix.</p>
 <p>Let’s try this in Python.</p>
+</section>
+<section id="id1">
+<h2>Implementing in Python<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -562,6 +570,8 @@ S_n = P^n(S_0)
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-a-transition-matrix">What is a transition matrix?</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#but-how-can-we-take-this-further">But how can we take this further?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#implementing-in-python">Implementing in Python</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Implementing in Python</a></li>
 </ul>
   </nav></div>
 
