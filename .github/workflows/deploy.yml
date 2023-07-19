@@ -37,3 +37,4 @@ jobs:
         with:
           personal_token: ${{ secrets.GH_TOKEN}}
           publish_dir: docs/_build/html
+          publish_branch: main
