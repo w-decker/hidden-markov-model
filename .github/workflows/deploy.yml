@@ -26,11 +26,6 @@ jobs:
         run: |
           pip install -r ./docs/requirements.txt
 
-      # Navigate into the `docs` directory
-      - name: Change directory to ./docs
-        run: |
-          cd ./docs
-
       # Build the book
       - name: Build the book
         run: |
