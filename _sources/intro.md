@@ -19,7 +19,7 @@ What is a Hidden Markov Model (HMM) in cognitive neuroscience? Here, I have gath
 
 Note: I have created this repository purely as a learning resource for _myself_. I am no expert and, thus, creating this repo gives me a space to document and demonstrate these Markovian concepts so that _I_ may better understand them. If you would like to contribute, just submit a pull request or send me resources that you believe would be helpful in better understanding HMMs.
 
-Check out the content pages.
+Check out the pages below.
 
 ```{tableofcontents}
 
